@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.eggs/
+.Python
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+
+# Docker
+*.dockerignore
+Dockerfile.dev
+Dockerfile.prod
+
+# CSS, JavaScript and media files
+node_modules/
+*.map
+
+# VENV
+.venv/
